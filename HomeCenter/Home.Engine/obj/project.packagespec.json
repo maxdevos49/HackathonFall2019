@@ -1,18 +1,19 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Engine/Home.Engine.csproj",
+    "projectUniqueName": "D:\\GitHub\\HackathonFall2019\\HomeCenter\\Home.Engine\\Home.Engine.csproj",
     "projectName": "Home.Engine",
-    "projectPath": "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Engine/Home.Engine.csproj",
-    "outputPath": "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Engine/obj/",
+    "projectPath": "D:\\GitHub\\HackathonFall2019\\HomeCenter\\Home.Engine\\Home.Engine.csproj",
+    "outputPath": "D:\\GitHub\\HackathonFall2019\\HomeCenter\\Home.Engine\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.2"
     ],
     "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
@@ -37,12 +38,7 @@
         }
       },
       "imports": [
-        "net461",
-        "net462",
-        "net47",
-        "net471",
-        "net472",
-        "net48"
+        "net461"
       ],
       "assetTargetFallback": true,
       "warn": true

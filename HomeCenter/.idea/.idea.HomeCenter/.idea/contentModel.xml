@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$PROJECT_DIR$" t="IncludeFlat">
+    <e p="C:\Users\Thomas\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Thomas\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_HomeCenter.1616311413.00" t="ExcludeRecursive" />
+    <e p="D:\GitHub\HackathonFall2019\HomeCenter" t="IncludeFlat">
       <e p="Home.Center" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
@@ -133,14 +135,12 @@
             <e p="Icon87.png" t="Include" />
           </e>
         </e>
-        <e p="bin" t="ExcludeRecursive" />
         <e p="Entitlements.plist" t="Include" />
         <e p="Home.IOS.csproj" t="IncludeRecursive" />
         <e p="Info.plist" t="Include" />
         <e p="LaunchScreen.storyboard" t="Include" />
         <e p="Main.cs" t="Include" />
         <e p="Main.storyboard" t="Include" />
-        <e p="obj" t="ExcludeRecursive" />
         <e p="Resources" t="Include" />
         <e p="SceneDelegate.cs" t="Include" />
         <e p="ViewController.cs" t="Include" />
@@ -149,8 +149,5 @@
       <e p="HomeCenter.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_HomeCenter.-1384804499.00" t="ExcludeRecursive" />
-    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
   </component>
 </project>

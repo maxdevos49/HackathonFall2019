@@ -686,28 +686,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/maxdevos/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Thomas\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Engine/Home.Engine.csproj",
+      "projectUniqueName": "D:\\GitHub\\HackathonFall2019\\HomeCenter\\Home.Engine\\Home.Engine.csproj",
       "projectName": "Home.Engine",
-      "projectPath": "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Engine/Home.Engine.csproj",
-      "packagesPath": "/Users/maxdevos/.nuget/packages/",
-      "outputPath": "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Engine/obj/",
+      "projectPath": "D:\\GitHub\\HackathonFall2019\\HomeCenter\\Home.Engine\\Home.Engine.csproj",
+      "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\HackathonFall2019\\HomeCenter\\Home.Engine\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/maxdevos/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -732,12 +734,7 @@
           }
         },
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
         "warn": true

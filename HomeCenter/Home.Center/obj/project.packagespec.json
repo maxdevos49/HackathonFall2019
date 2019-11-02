@@ -1,18 +1,19 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Center/Home.Center.csproj",
+    "projectUniqueName": "D:\\GitHub\\HackathonFall2019\\HomeCenter\\Home.Center\\Home.Center.csproj",
     "projectName": "Home.Center",
-    "projectPath": "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Center/Home.Center.csproj",
-    "outputPath": "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Center/obj/",
+    "projectPath": "D:\\GitHub\\HackathonFall2019\\HomeCenter\\Home.Center\\Home.Center.csproj",
+    "outputPath": "D:\\GitHub\\HackathonFall2019\\HomeCenter\\Home.Center\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp3.0"
     ],
     "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
@@ -28,13 +29,16 @@
   },
   "frameworks": {
     "netcoreapp3.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "(, )",
+          "autoReferenced": true
+        }
+      },
       "imports": [
-        "net461",
-        "net462",
-        "net47",
-        "net471",
-        "net472",
-        "net48"
+        "net461"
       ],
       "assetTargetFallback": true,
       "warn": true
