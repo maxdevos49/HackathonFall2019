@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Center/Home.Center.csproj": {}
+    "D:\\GitHub\\HackathonFall2019\\HomeCenter\\Home.Center\\Home.Center.csproj": {}
   },
   "projects": {
-    "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Center/Home.Center.csproj": {
+    "D:\\GitHub\\HackathonFall2019\\HomeCenter\\Home.Center\\Home.Center.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Center/Home.Center.csproj",
+        "projectUniqueName": "D:\\GitHub\\HackathonFall2019\\HomeCenter\\Home.Center\\Home.Center.csproj",
         "projectName": "Home.Center",
-        "projectPath": "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Center/Home.Center.csproj",
-        "packagesPath": "/Users/maxdevos/.nuget/packages/",
-        "outputPath": "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Center/obj/",
+        "projectPath": "D:\\GitHub\\HackathonFall2019\\HomeCenter\\Home.Center\\Home.Center.csproj",
+        "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\HackathonFall2019\\HomeCenter\\Home.Center\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/maxdevos/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,22 +39,25 @@
         }
       },
       "frameworks": {
+<<<<<<< HEAD
         "netcoreapp2.2": {
+=======
+        "netcoreapp3.0": {
+>>>>>>> 185161f4a89d9d9360b88ecb2f88cfc28eb7001b
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
+<<<<<<< HEAD
               "version": "[2.2.0, )",
+=======
+              "version": "(, )",
+>>>>>>> 185161f4a89d9d9360b88ecb2f88cfc28eb7001b
               "autoReferenced": true
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
           "warn": true
