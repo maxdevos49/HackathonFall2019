@@ -1,0 +1,81 @@
+@{
+    ViewData["Title"] = "Test Page";
+}
+
+
+<div>
+    
+    
+    
+</div>
+
+
+
+<script>
+
+//Get template
+let template = `
+<template>
+      <style>
+      .app-icon{
+          
+        }
+      </style>
+      <div class="app-icon">
+            <h1></h1>
+      </div>
+</template>
+`;
+
+//Define custom element
+class AppIcon extends HTMLElement {
+  
+    constructor() {
+      super(); 
+
+      this.shadowRoot = this.attachShadow({ 'mode': 'open' });
+      this.shadowRoot.innerHTML = `
+          <style>
+          .app-icon{
+              
+            }
+          </style>
+          <div class="app-icon">
+                <h1></h1>
+          </div>`;
+      
+      this.$title = this.shadowRoot.querySelector("p");
+
+    }
+  
+    static get observedAttributes() {
+      return ["title", "thumbnail", "description", "launch"];
+    }
+
+    connectedCallback() {//When added to DOM
+        
+      if(!this.hasAttribute('title')) 
+        this.setAttribute('title', 'App');
+      
+      if(!this.hasAttribute('description'))
+        this.setAttribute('description', 'Generic Description');
+      
+      if(!this.hasAttribute('thumbnail'))
+              this.setAttribute('thumbnail', '/images/icons/missing');
+      
+      this.$title.innerHTML = this.getAttribute('title');
+    }
+
+    disconnectedCallback() {
+    }
+
+    attributeChangedCallback(name, oldVal, newVal) {
+    }
+
+    adoptedCallback() {
+    }
+}
+
+window.customElements.define('App-Icon', AppIcon);
+
+</script>

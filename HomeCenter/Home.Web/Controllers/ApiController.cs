@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Home.Center.Controllers
+namespace BFB.Web.Controllers
 {
     public class ApiController : Controller
     {
@@ -15,10 +15,10 @@ namespace Home.Center.Controllers
             {
                 appList.Add(new App
                 {
-                    Name = "App" + i,
+                    Title = "App" + i,
                     Thumbnail = "Thumbnail" + i,
                     Description = "Description" + i,
-                    LaunchKey = "Launch" + i
+                    Launch = "Launch" + i
                 });
             }
             return new JsonResult(appList);
@@ -29,13 +29,13 @@ namespace Home.Center.Controllers
     public class App
     {
         
-        public string Name { get; set; }
+        public string Title { get; set; }
         
         public string Thumbnail { get; set; }
         
         public string Description { get; set; }
 
-        public string LaunchKey { get; set; }
+        public string Launch { get; set; }
         
     }
 }
