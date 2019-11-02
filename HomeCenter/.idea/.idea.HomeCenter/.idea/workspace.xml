@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64fe9343-762f-4fdd-a7fd-1cdec3a030d5" name="Default Changelist" comment="" />
+    <list default="true" id="64fe9343-762f-4fdd-a7fd-1cdec3a030d5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HomeCenter/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HomeCenter/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HomeCenter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HomeCenter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/HomeCenter/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/HomeCenter/xs/UserPrefs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/HomeCenter/xs/project-cache/Home.Android-Debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/HomeCenter/xs/project-cache/Home.Android-Debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/HomeCenter/xs/project-cache/Home.IOS-Debug|iPhoneSimulator.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/HomeCenter/xs/project-cache/Home.IOS-Debug|iPhoneSimulator.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/HomeCenter/xs/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/HomeCenter/xs/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.Android/Properties/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Home.Android/Properties/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.Android/Resources/Resource.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Home.Android/Resources/Resource.designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.Android/obj/Debug/Home.Android.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Home.Android/obj/Debug/Home.Android.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.Android/obj/Debug/customview-map.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Home.Android/obj/Debug/customview-map.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.Android/obj/Debug/designtime/libraryimports.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Home.Android/obj/Debug/designtime/libraryimports.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.Android/obj/Debug/designtime/libraryprojectimports.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Home.Android/obj/Debug/designtime/libraryprojectimports.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.Center/obj/Debug/netcoreapp3.0/Home.Center.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Home.Center/obj/Debug/netcoreapp3.0/Home.Center.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.Center/obj/Home.Center.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Home.Center/obj/Home.Center.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.Center/obj/Home.Center.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Home.Center/obj/Home.Center.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.Center/obj/Home.Center.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Home.Center/obj/Home.Center.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.Center/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Home.Center/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.Engine/obj/Debug/netcoreapp2.2/Home.Engine.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Home.Engine/obj/Debug/netcoreapp2.2/Home.Engine.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.Engine/obj/Home.Engine.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Home.Engine/obj/Home.Engine.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.Engine/obj/Home.Engine.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Home.Engine/obj/Home.Engine.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.Engine/obj/Home.Engine.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Home.Engine/obj/Home.Engine.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.Engine/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Home.Engine/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home.IOS/obj/iPhoneSimulator/Debug/Home.IOS.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Home.IOS/obj/iPhoneSimulator/Debug/Home.IOS.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeCenter.sln" beforeDir="false" afterPath="$PROJECT_DIR$/HomeCenter.sln" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +37,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Home.Android/MainActivity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Home.Android/MainActivity.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Home.Engine/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Home.Center/Startup.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -22,12 +48,19 @@
       </list>
     </option>
   </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="Home.Android/invalid/Android Facet - Home.Android" />
+    </ignored-facets>
+  </component>
   <component name="ProjectId" id="1T2VscA2NqWcQQGFsF8zCPfubyy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -41,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Xamarin.iOS.iOS Default">
+  <component name="RunManager" selected="Xamarin.iOS.Home.IOS">
     <configuration name="Home.Web" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Home.Web/Home.Web.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.0" />
@@ -72,6 +105,26 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Android Default" type="XamarinAndroidProject" factoryName="Xamarin.Android">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEPLOY_BEHAVIOUR_NAME" value="Default" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Home.IOS" type="XamarinIOSProject" factoryName="Xamarin.iOS" temporary="true">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Home.IOS/Home.IOS.csproj" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="DEFAULT_IPHONE_DEVICE" value="" />
+      <option name="DEFAULT_IPHONE_SIMULATOR" value="" />
+      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="Ask" />
+      <option name="IS_PASS_PARENT_ENVS" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="iOS Default" type="XamarinIOSProject" factoryName="Xamarin.iOS">
       <option name="PROJECT_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -81,6 +134,11 @@
       <option name="IS_PASS_PARENT_ENVS" value="false" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Xamarin.iOS.Home.IOS" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -92,7 +150,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572658384178</updated>
-      <workItem from="1572658385411" duration="1207000" />
+      <workItem from="1572658385411" duration="1778000" />
+      <workItem from="1572662553770" duration="997000" />
     </task>
     <servers />
   </component>
@@ -104,7 +163,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

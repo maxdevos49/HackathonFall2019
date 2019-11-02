@@ -2,67 +2,6 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeFlat">
-      <e p="Home.Android" t="IncludeRecursive">
-        <e p="Assets" t="Include">
-          <e p="AboutAssets.txt" t="Include" />
-        </e>
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="Home.Android.csproj" t="IncludeRecursive" />
-        <e p="MainActivity.cs" t="Include" />
-        <e p="obj" t="ExcludeRecursive" />
-        <e p="Properties" t="Include">
-          <e p="AndroidManifest.xml" t="Include" />
-          <e p="AssemblyInfo.cs" t="Include" />
-        </e>
-        <e p="Resources" t="Include">
-          <e p="AboutResources.txt" t="Include" />
-          <e p="drawable" t="Include" />
-          <e p="layout" t="Include">
-            <e p="activity_main.xml" t="Include" />
-            <e p="content_main.xml" t="Include" />
-          </e>
-          <e p="menu" t="Include">
-            <e p="menu_main.xml" t="Include" />
-          </e>
-          <e p="mipmap-anydpi-v26" t="Include">
-            <e p="ic_launcher.xml" t="Include" />
-            <e p="ic_launcher_round.xml" t="Include" />
-          </e>
-          <e p="mipmap-hdpi" t="Include">
-            <e p="ic_launcher.png" t="Include" />
-            <e p="ic_launcher_foreground.png" t="Include" />
-            <e p="ic_launcher_round.png" t="Include" />
-          </e>
-          <e p="mipmap-mdpi" t="Include">
-            <e p="ic_launcher.png" t="Include" />
-            <e p="ic_launcher_foreground.png" t="Include" />
-            <e p="ic_launcher_round.png" t="Include" />
-          </e>
-          <e p="mipmap-xhdpi" t="Include">
-            <e p="ic_launcher.png" t="Include" />
-            <e p="ic_launcher_foreground.png" t="Include" />
-            <e p="ic_launcher_round.png" t="Include" />
-          </e>
-          <e p="mipmap-xxhdpi" t="Include">
-            <e p="ic_launcher.png" t="Include" />
-            <e p="ic_launcher_foreground.png" t="Include" />
-            <e p="ic_launcher_round.png" t="Include" />
-          </e>
-          <e p="mipmap-xxxhdpi" t="Include">
-            <e p="ic_launcher.png" t="Include" />
-            <e p="ic_launcher_foreground.png" t="Include" />
-            <e p="ic_launcher_round.png" t="Include" />
-          </e>
-          <e p="Resource.designer.cs" t="Include" />
-          <e p="values" t="Include">
-            <e p="colors.xml" t="Include" />
-            <e p="dimens.xml" t="Include" />
-            <e p="ic_launcher_background.xml" t="Include" />
-            <e p="strings.xml" t="Include" />
-            <e p="styles.xml" t="Include" />
-          </e>
-        </e>
-      </e>
       <e p="Home.Center" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
