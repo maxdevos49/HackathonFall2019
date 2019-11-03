@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/masontimmerman 1/Desktop/Programming/C#/HackathonFall2019/HomeCenter/Home.Engine/Home.Engine.csproj",
+    "projectUniqueName": "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Engine/Home.Engine.csproj",
     "projectName": "Home.Engine",
-    "projectPath": "/Users/masontimmerman 1/Desktop/Programming/C#/HackathonFall2019/HomeCenter/Home.Engine/Home.Engine.csproj",
-    "outputPath": "/Users/masontimmerman 1/Desktop/Programming/C#/HackathonFall2019/HomeCenter/Home.Engine/obj/",
+    "projectPath": "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Engine/Home.Engine.csproj",
+    "outputPath": "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Engine/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

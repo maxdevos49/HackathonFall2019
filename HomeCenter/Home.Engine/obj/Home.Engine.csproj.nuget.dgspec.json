@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/masontimmerman 1/Desktop/Programming/C#/HackathonFall2019/HomeCenter/Home.Engine/Home.Engine.csproj": {}
+    "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Engine/Home.Engine.csproj": {}
   },
   "projects": {
-    "/Users/masontimmerman 1/Desktop/Programming/C#/HackathonFall2019/HomeCenter/Home.Engine/Home.Engine.csproj": {
+    "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Engine/Home.Engine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/masontimmerman 1/Desktop/Programming/C#/HackathonFall2019/HomeCenter/Home.Engine/Home.Engine.csproj",
+        "projectUniqueName": "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Engine/Home.Engine.csproj",
         "projectName": "Home.Engine",
-        "projectPath": "/Users/masontimmerman 1/Desktop/Programming/C#/HackathonFall2019/HomeCenter/Home.Engine/Home.Engine.csproj",
-        "packagesPath": "/Users/masontimmerman 1/.nuget/packages/",
-        "outputPath": "/Users/masontimmerman 1/Desktop/Programming/C#/HackathonFall2019/HomeCenter/Home.Engine/obj/",
+        "projectPath": "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Engine/Home.Engine.csproj",
+        "packagesPath": "/Users/maxdevos/.nuget/packages/",
+        "outputPath": "/Users/maxdevos/Desktop/Programming_Projects/csharp_project/HomeCenter/Home.Engine/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/masontimmerman 1/.config/NuGet/NuGet.Config"
+          "/Users/maxdevos/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"

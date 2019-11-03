@@ -25,13 +25,15 @@
     div[data-ui-stack="vstack"]
     {
         flex-direction: column;
-        /*height: inherit;*/
     }
     
     div[data-ui-stack="hstack"]
     {
-        /*width: inherit;*/
         flex-direction: row;
+    }
+    
+    .highlight{
+        background: blue;
     }
     
 </style>
@@ -40,8 +42,18 @@
     
     <div data-ui-stack="vstack" style="flex:3">
         
-        <div>
-            We stack vertical item 1
+        <div data-ui-stack="hstack">
+             <div>
+                item 2
+            </div>
+            
+            <div>
+                item 3
+            </div> 
+            <div>
+                item 3
+            </div>
+            
         </div>
  
         <div>
@@ -72,4 +84,3 @@
     
 </div>
 
-<script src="js/UIItem.js"></script>
