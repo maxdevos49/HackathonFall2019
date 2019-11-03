@@ -1,0 +1,28 @@
+@html.extend('/Shared/_layout', function(model){
+
+    @html.block('content', function(model){
+
+        @{
+            model.title = "Control";
+        }
+
+        <div>
+            <button data-ui-control="Up">Up</button>
+            <button data-ui-control="Right">Right</button>
+            <button data-ui-control="Down">Down</button>
+            <button data-ui-control="Left">Left</button>
+        </div>
+
+        <button data-ui-control="Enter">Enter</button>
+        <button data-ui-control="Back">Escape</button>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/UIItem.js" type="text/javascript"></script>
+        <script src="/js/UIController.js" type="text/javascript"></script>
+        <script src="/js/UIRemote.js" type="text/javascript"></script>
+        <script>
+            let remote = new UIRemote(false);
+        </script>
+
+    })
+})
