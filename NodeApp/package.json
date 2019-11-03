@@ -1,0 +1,60 @@
+{
+    "name": "node-app-template",
+    "version": "1.1.0",
+    "description": "Node app template ready to go with a mongodb database and okta integration",
+    "main": "server.js",
+    "devDependencies": {
+        "@okta/oidc-middleware": "^2.0.0",
+        "@types/dotenv": "^6.1.0",
+        "@types/express": "^4.16.1",
+        "@types/express-fileupload": "^1.1.0",
+        "@types/express-session": "^1.15.12",
+        "@types/express-useragent": "^0.2.21",
+        "@types/helmet": "0.0.43",
+        "@types/ip": "^1.1.0",
+        "@types/mongoose": "^5.3.24",
+        "@types/node": "^11.10.4",
+        "@types/nodemailer": "^6.2.0",
+        "nodemon": "^1.18.10"
+    },
+    "dependencies": {
+        "@types/socket.io": "^2.1.4",
+        "@types/socket.io-client": "^1.4.32",
+        "@types/uuid": "^3.4.6",
+        "dotenv": "^6.2.0",
+        "esm": "^3.2.9",
+        "express": "^4.16.4",
+        "express-fileupload": "^1.1.5",
+        "express-session": "^1.15.6",
+        "express-useragent": "^1.0.13",
+        "helmet": "^3.21.2",
+        "ip": "^1.1.5",
+        "mongoose": "^5.4.20",
+        "nodemailer": "^6.2.1",
+        "socket.io": "^2.3.0",
+        "socket.io-client": "^2.3.0",
+        "source-map-support": "^0.5.12",
+        "typescript": "^3.4.3",
+        "uuid": "^3.3.3",
+        "vash": "^0.12.6"
+    },
+    "scripts": {
+        "setup": "./scripts/dotenv.sh -f && npm i",
+        "build": "tsc",
+        "start": "node -r esm -r source-map-support/register -r dotenv/config src/server.js",
+        "dev": "nodemon"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/maxdevos49/HomeCenter.git"
+    },
+    "nodemonConfig": {
+        "watch": [
+            "src"
+        ],
+        "exec": "npm run build && npm run start",
+        "ext": "ts"
+    },
+    "author": "Maxwell DeVos",
+    "license": "ISC"
+}

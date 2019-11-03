@@ -1,0 +1,40 @@
+{
+    "folders": [
+        {
+            "name": "Source",
+            "path": "./src"
+        },
+        {
+            "name": "Other",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/src": true,            
+            "**/CVS": true,
+            "**/.DS_Store": true,
+            "**/*.js.m*": true,
+            "**/*.js": {
+                "when": "$(basename).ts"
+            }
+        },
+        "workbench.colorCustomizations": {
+            "activityBar.background": "#7195b1",
+            "activityBar.foreground": "#15202b",
+            "activityBar.inactiveForeground": "#15202b99",
+            "activityBarBadge.background": "#e8d6e0",
+            "activityBarBadge.foreground": "#15202b",
+            "titleBar.activeBackground": "#557c9a",
+            "titleBar.inactiveBackground": "#557c9a99",
+            "titleBar.activeForeground": "#e7e7e7",
+            "titleBar.inactiveForeground": "#e7e7e799",
+            "statusBar.background": "#557c9a",
+            "statusBarItem.hoverBackground": "#7195b1",
+            "statusBar.foreground": "#e7e7e7"
+        },
+        "peacock.color": "#557c9a"
+    }
+}

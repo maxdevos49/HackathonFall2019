@@ -47,8 +47,6 @@ _ReSharper*/
 ~$*
 
 #Typescript/Javascript
-*.ts
-*.tsbuildinfo
 # *.js
 # *.js.map
 # *.js.min
