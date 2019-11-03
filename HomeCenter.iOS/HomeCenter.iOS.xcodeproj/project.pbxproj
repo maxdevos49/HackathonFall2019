@@ -16,6 +16,7 @@
 		97D6D0B6236E164500F7CE36 /* HomeCenter_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D6D0B5236E164500F7CE36 /* HomeCenter_iOSTests.swift */; };
 		97D6D0C1236E164500F7CE36 /* HomeCenter_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D6D0C0236E164500F7CE36 /* HomeCenter_iOSUITests.swift */; };
 		97D6D0D4236E7DD000F7CE36 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = 97D6D0D3236E7DD000F7CE36 /* SocketIO */; };
+		97D6D0D8236F03DA00F7CE36 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D6D0D7236F03DA00F7CE36 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		97D6D09B236E164200F7CE36 /* HomeCenter.iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeCenter.iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D6D09E236E164200F7CE36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97D6D0A0236E164200F7CE36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		97D6D0A2236E164200F7CE36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97D6D0A2236E164200F7CE36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		97D6D0A4236E164500F7CE36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97D6D0A7236E164500F7CE36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		97D6D0AA236E164500F7CE36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +51,7 @@
 		97D6D0BC236E164500F7CE36 /* HomeCenter.iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeCenter.iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D6D0C0236E164500F7CE36 /* HomeCenter_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCenter_iOSUITests.swift; sourceTree = "<group>"; };
 		97D6D0C2236E164500F7CE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97D6D0D7236F03DA00F7CE36 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		97D6D092236E164200F7CE36 = {
 			isa = PBXGroup;
 			children = (
+				97D6D0D7236F03DA00F7CE36 /* Media.xcassets */,
 				97D6D09D236E164200F7CE36 /* HomeCenter.iOS */,
 				97D6D0B4236E164500F7CE36 /* HomeCenter.iOSTests */,
 				97D6D0BF236E164500F7CE36 /* HomeCenter.iOSUITests */,
@@ -250,6 +253,7 @@
 			files = (
 				97D6D0AB236E164500F7CE36 /* LaunchScreen.storyboard in Resources */,
 				97D6D0A8236E164500F7CE36 /* Preview Assets.xcassets in Resources */,
+				97D6D0D8236F03DA00F7CE36 /* Media.xcassets in Resources */,
 				97D6D0A5236E164500F7CE36 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
