@@ -81,11 +81,17 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 class SocketController : ObservableObject {
     var didChange = PassthroughSubject<Void, Never>()
     
-    let manager = SocketManager(socketURL: URL(string: "http://10.27.249.74:8080")!,config: [.log(true), .connectParams(["token": "ABC"])]);
+    let manager = SocketManager(socketURL: URL(string: "http://10.27.251.222:8080")!,config: [.log(true), .connectParams(["token": "ABC"])]);
     
     func sendInput (x: Int) {
         var result = [Any]();
         result.append(x);
         manager.defaultSocket.emit("/controlInput", with: result);
+    }
+    
+    func sendAccessCode (code: String) {
+        var result = [Any]();
+        result.append(code);
+        manager.defaultSocket.emit("/accessCodeInput", with: result);
     }
 }
