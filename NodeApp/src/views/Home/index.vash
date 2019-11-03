@@ -40,28 +40,40 @@
             
             <div data-ui-stack="vstack"  style="flex:4">
                 
-                <div style="flex:4" id="widgetSpace">
+                <div style="flex:4" id="widgetArea">
                     
-
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="/images/default.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="/images/default-user.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="/images/homecenterlogo.png" alt="Third slide">
+                        </div>
+                    </div>
+                </div>
 
                 </div>
 
                 
                 <div data-ui-stack="hstack" style="background: rgba(0,0,0,0.8); box-shadow: inset 0 0 5px 5px black">
             
-                    <div class="center" style="color:white;">
+                    <div class="center" style="color:white;" data-ui-launch="music">
                         <img src="/images/music.png" style="background-size: contain; width: 50%; height: 80%; padding: auto; margin: auto;"/>
                     </div>
 
-                    <div class="center" style="color:white;">
+                    <div class="center" style="color:white;" data-ui-launch="photo">
                         <img src="/images/photo.png" style="background-size: contain; width: 70%;"/>
                     </div>
 
-                    <div class="center" style="color:white;">
+                    <div class="center" style="color:white;" data-ui-launch="video">
                         <img src="/images/video.png" style="background-size: contain; width: 70%;"/>
                     </div>
 
-                    <div class="center" style="color:white;">
+                    <div class="center" style="color:white;" data-ui-launch="note">
                         <img src="/images/note.png" style="background-size: contain; width: 50%; height: 80%; padding: auto; margin: auto;"/>
                     </div>
 
@@ -80,7 +92,6 @@
         <script>
             let ui = UIController.BuildUI();
             let remote = new UIRemote();
-            InitLaunchAction();
 
 
             function settings()
@@ -90,19 +101,46 @@
 
             function music()
             {
-
+                
             }
 
-            function videos()
+            function video()
             {
 
             }
 
-            function reminders()
+            function photo()
+            {
+                console.log("Test")
+
+                document.QuerySelector("#widgetArea").innerHTML = `
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="/images/default.png" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/images/default-user.png" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/images/homecenterlogo.png" alt="Third slide">
+    </div>
+  </div>
+</div>
+                
+                `; 
+
+                $('.carousel').carousel()           
+            }
+
+            function note()
             {
                 
             }
+
+            InitLaunchAction();
+
         </script>
 
-    })
-})
+    });
+});
