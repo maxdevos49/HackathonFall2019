@@ -24,7 +24,7 @@
         "dotenv": "^6.2.0",
         "esm": "^3.2.9",
         "express": "^4.16.4",
-        "express-fileupload": "^1.1.5",
+        "express-fileupload": "^1.1.9",
         "express-session": "^1.15.6",
         "express-useragent": "^1.0.13",
         "helmet": "^3.21.2",
