@@ -31,7 +31,7 @@
         "ip": "^1.1.5",
         "mongoose": "^5.4.20",
         "nodemailer": "^6.2.1",
-        "socket.io": "^2.3.0",
+        "socket.io": "^2.5.0",
         "socket.io-client": "^2.3.0",
         "source-map-support": "^0.5.12",
         "typescript": "^3.4.3",
