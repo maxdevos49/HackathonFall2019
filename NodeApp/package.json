@@ -4,7 +4,7 @@
     "description": "Node app template ready to go with a mongodb database and okta integration",
     "main": "server.js",
     "devDependencies": {
-        "@okta/oidc-middleware": "^2.0.0",
+        "@okta/oidc-middleware": "^5.0.0",
         "@types/dotenv": "^6.1.0",
         "@types/express": "^4.16.1",
         "@types/express-fileupload": "^1.1.0",
